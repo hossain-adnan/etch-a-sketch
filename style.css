@@ -9,15 +9,16 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    /* width: 200px; */
+    width: 400px;
+    height: 400px;
 }
 
 .box {
-    flex: 0 0 50px;
+    flex: 0 0 1;
     background-color: blueviolet;
-    height: 50px;
-    width: 50px;
-    border: solid 2px blue;
+    /* height: 50px;
+    width: 50px; */
+    border: solid 1px blue;
     box-sizing: border-box;
 }
 
