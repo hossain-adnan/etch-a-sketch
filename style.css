@@ -1,0 +1,22 @@
+/* .container div{
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border: solid 2px blue;
+    box-sizing: border-box;
+} */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 200px; */
+}
+
+.box {
+    flex: 0 0 50px;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border: solid 2px blue;
+    box-sizing: border-box;
+}
