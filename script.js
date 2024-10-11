@@ -3,7 +3,15 @@
 const promptBtn = document.querySelector('.promptBtn');
 
 promptBtn.addEventListener('click', () => {
-    let numXnum = Number(prompt('Enter Grid Size upto 100'));
+    let numXnum;
+    let belowHundred = false;
+    while (!belowHundred) {
+        numXnum = Number(prompt('Enter Grid Size upto 100'));
+        if (numXnum <= 100 && numXnum != NaN) {
+            belowHundred = true;
+        }
+    }
+
     const container = document.querySelector('.container');
 
     container.innerHTML = '';
