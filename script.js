@@ -24,11 +24,9 @@ promptBtn.addEventListener('click', () => {
         square.style.width = `${width / numXnum}px`;
         square.style.height = `${height / numXnum}px`;
         container.appendChild(square); // Append to the container
-        square.addEventListener('mouseover', () => {square.style.backgroundColor = 'red';    
-        });
+        square.addEventListener('mouseover', () => {square.style.backgroundColor = '#E82727';});
+        square.addEventListener('mouseover', () => {square.style.backgroundColor = '#E82727';});      
     }
-    square.addEventListener('mouseover', () => {square.style.backgroundColor = 'red';   
-    });
     // const containerWidth = (numXnum * 50); 
     // container.style.width = `${containerWidth}px`;
 });
